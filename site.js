@@ -12,14 +12,14 @@ let num = ["apple", "orange", "pine Apple", "Banana"];
 //     console.log(x);
 // });
 
-// let t = (x) => {
-//     console.log(`sq ${x} : ${x*x}`);
-// }
+let t = (x) => {
+    console.log(`sq ${x} : ${x*x}`);
+}
 
-// let y = t;
+let y = t;
 
-// function high(n,c) {
-//     c(n);
-// }
+function high(n,c) {
+    c(n);
+}
 
-// high(6,y);
+high(6,y);
